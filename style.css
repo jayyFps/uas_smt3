@@ -1,0 +1,652 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Bruno+Ace&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.navbar-brand{
+    font-family: "Bruno Ace", sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  font-style: normal;
+  margin-left: 20px;
+  font-style: italic;
+
+
+}
+.offcanvasb-body .nav-item .nav-link .a{
+    font-family: "Bruno Ace", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    object-fit: cover;
+}
+
+body{
+    background-image: url(fnl.jpg);
+}
+
+nav{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav a.logo{
+    font-size: 33px;
+    color: #0f2182;
+    font-weight: 600;
+}
+
+nav .links a:not(:last-child){
+    margin-right: 20px;
+}
+
+nav .login button{
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.sponsor{
+    text-align: center;
+    font-family: "bruno ace";
+    margin-top: 80px;
+}
+
+
+header{
+    margin-top: 90px;
+    padding: 0 10px;
+    height: calc(100vh - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left{
+    width: 900px;
+}
+
+header .left h1{
+    margin-left: 30px;
+    font-size: 70px;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header .left h1 span{
+    color: #5c1dc2;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header .left p{
+    font-family: poppins;
+    margin-left: 30px;
+    color: #777;
+}
+
+
+
+header .left a i{
+    background-color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+header .left a span{
+    color: #fff;
+    margin-left: 18px;
+    text-align: center;
+}
+
+header img{
+    width: 600px;
+    margin-right: 10px;
+}
+
+h2.separator{
+    padding: 0 80px;
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+.sell-nft{
+    padding: 0 40px;
+    margin: 50px 0 80px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.sell-nft .item,
+.nft-shop .nft-list .item{
+    font-family: poppins;
+    padding: 50px;
+    background: #b8b5b5;
+    border-radius: 18px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.sell-nft .item:hover,
+.nft-shop .nft-list .item:hover,
+.sellers .item:hover{
+    box-shadow: none;
+}
+
+.sell-nft .item .header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sell-nft .item .header i{
+    font-size: 40px;
+}
+
+.sell-nft .item .header h5{
+    font-size: 30px;
+    font-style: bold;
+    font-family: "bruno ace";
+}
+.list-games{
+    font-family: "bruno ace";
+    text-align: center;
+}
+
+.sell-nft .item li{
+    font-family: poppins;
+    margin-top: 10px;
+    padding: 10 4px;
+    margin-left: 18px;
+}
+
+/* footer */
+footer{
+    background-color: #2b2828;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3{
+    font-size: 48px;
+}
+
+footer .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .links{
+    display: flex;
+    gap: 30px;
+}
+
+footer .right .links a{
+    color: #989898;
+    transition: color 0.3s ease;
+    font-family: poppins;
+}
+
+footer .right .links a:hover{
+    color: #fff;
+}
+
+footer .right .social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .right .social i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .social i:hover{
+    color: #5c1dc2;
+}
+
+footer .right p{
+    font-size: 13px;
+    color: #777;
+}
+
+@media screen and (max-width: 1400px) {
+    
+    nav,
+    header,
+    h2.separator,
+    .sell-nft,
+    .nft-shop,
+    .sellers{
+        padding: 0 40px;
+    }
+
+    header .left h1{
+        font-size: 60px;
+    }
+
+    header img{
+        width: 540px;
+    }
+
+    .nft-shop .nft-list .item img{
+        width: 220px;
+        height: 220px;
+    }
+
+    footer{
+        padding: 100px 40px;
+    }
+
+    footer h3{
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    
+    header .left h1{
+        font-size: 48px;
+    }
+
+    header img{
+        width: 480px;
+    }
+
+    h2.separator{
+        font-size: 34px;
+    }
+
+    .sell-nft .item .header i{
+        font-size: 36px;
+    }
+
+    .sell-nft .item .header h5{
+        font-size: 15px;
+    }
+
+    .sell-nft .item p{
+        font-size: 13px;
+    }
+
+    .nft-shop .nft-list{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .nft-shop .nft-list .item{
+        width: 48%;
+    }
+
+    .nft-shop .nft-list .item img{
+        width: 100%;
+        height: auto;
+    }
+
+    .sellers{
+        flex-wrap: wrap;
+    }
+
+    .sellers .item{
+        width: 48%;
+    }
+
+    footer .links a{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    nav a.logo{
+        font-size: 28px;
+    }
+
+    nav .links a{
+        font-size: 14px;
+    }
+
+    header{
+        flex-direction: column-reverse;
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    header .left{
+        width: 100%;
+    }
+
+    header img{
+        width: 100%;
+    }
+
+    .sell-nft{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sell-nft .item{
+        width: 48%;
+    }
+
+    .sellers{
+        gap: 20px;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    footer h3{
+        margin-bottom: 40px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    footer .right{
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    nav,
+    header,
+    h2.separator,
+    .sell-nft,
+    .nft-shop,
+    .sellers{
+        padding: 0 20px;
+    }
+
+    nav a.logo{
+        display: none;
+    }
+
+    nav .links a{
+        font-size: 12px;
+    }
+
+    nav .login button{
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    header .left h1{
+        font-size: 36px;
+    }
+
+    header .left p{
+        font-size: 14px;
+    }
+
+    header .left a{
+        padding: 6px;
+        width: 160px;
+        font-size: 14px;
+    }
+
+    header .left a i{
+        padding: 6px;
+    }
+
+    h2.separator{
+        font-size: 30px;
+    }
+
+    footer{
+        padding: 40px 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    header .left h1{
+        font-size: 30px;
+    }
+
+    .sell-nft .item{
+        width: 100%;
+    }
+
+    .nft-shop .nft-list .item,
+    .sellers .item{
+        width: 47%;
+    }
+
+    .nft-shop .category a{
+        font-size: 13px;
+    }
+
+}
+
+/* table */
+
+* {
+    
+    font-family: sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    justify-content: center;
+    margin: 100px auto;
+    width: 90%;
+    padding: 20px;
+    font-size: 0.9em;
+    
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+
+.content-table thead tr {
+    background-color: #5c1dc2;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    font-family: poppins;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+
+.container {
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.box {
+    width: 250px;
+    margin:0 10px;
+    
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.box:hover{
+    transform: scale(1.3);
+    z-index:2 ;
+}
+ /* navbar */
+/* From Uiverse.io by barisdogansutcu */ 
+/* From Uiverse.io by mrhyddenn */ 
+.bt12 {
+    background: #5c1dc2;
+    font-family: "Bruno Ace", sans-serif;
+    
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+    margin-left: 30px;
+    color: #fff;
+  }
+  
+  .bt12 .span {
+    display: inline-block;
+    transform: skew(21deg);
+  }
+  
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  button:hover {
+    color: #ffffff;
+  }
+  
+  button:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+/* form */
+
+  body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-family: "bruno ace";
+}
+
+form {
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* From Uiverse.io by Custyyyy */ 
+#bottone1 {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #5c1dc2;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    display: block;
+    margin: auto;
+    width: 100%;
+   }
+   
+   #bottone1:hover {
+    box-shadow: 7px 5px 56px -14px #5c1dc2;
+    border-radius: 9px;
+   }
+   
+   #bottone1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #5c1dc2;
+    border-radius: 9px;
+   }
